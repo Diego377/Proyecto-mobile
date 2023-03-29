@@ -14,16 +14,8 @@
         tools:layout_editor_absoluteX="-2dp"
         tools:layout_editor_absoluteY="0dp" />
 
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="104dp"
-        android:layout_height="106dp"
-        app:srcCompat="@drawable/candado"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="333dp" />
-
     <Button
-        android:id="@+id/loginFacebook"
+        android:id="@+id/loginBtn"
         android:layout_width="273dp"
         android:layout_height="55dp"
         android:text="Log in"
@@ -52,19 +44,36 @@
         tools:layout_editor_absoluteY="482dp" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="66dp"
-        android:layout_height="70dp"
+        android:id="@+id/faceBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         app:srcCompat="@drawable/facebook_logo__2019_"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="734dp" />
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="716dp" />
 
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="68dp"
-        android:layout_height="68dp"
+        android:id="@+id/googleBtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         app:srcCompat="@drawable/google"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="734dp" />
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="716dp" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="119dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Bienvenido!"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="409dp"
+        android:layout_height="316dp"
+        app:srcCompat="@mipmap/football"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
