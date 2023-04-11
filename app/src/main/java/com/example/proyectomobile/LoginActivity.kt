@@ -1,28 +1,30 @@
 package com.example.proyectomobile
 
-import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.ContactsContract.CommonDataKinds.Email
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 
 class LoginActivity : AppCompatActivity() {
-
-    lateinit var btnLogin: Button
-    lateinit var btnFacebook: Button
-    lateinit var btnGoogle: Button
-    lateinit var welcomeText: TextView
-    lateinit var imageBackground: Image
-    lateinit var username: EditText
-    lateinit var password: EditText
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
+        lateinit var btnLogin: Button
+        lateinit var welcomeText: TextView
+
+        var username: EditText = findViewById(R.id.inputEmail)
+        var password: EditText = findViewById(R.id.inputPassword)
+
+
         btnLogin.setOnClickListener {
-             welcomeText = username + " " + password
+            if((username.text.toString() !== "Apostador") || (password.text.toString() !== "apuesta")
+            ){
+                welcomeText.text = "Nombre de usuario o contrasenia incorrecto!"
+            }else{
+                welcomeText.text = "Intentando conectar..."
+            }
         }
     }
 }
