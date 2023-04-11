@@ -42,8 +42,8 @@
 
     <EditText
         android:id="@+id/editTextNumber2"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="38dp"
+        android:layout_height="45dp"
         android:layout_marginTop="136dp"
         android:layout_marginEnd="16dp"
         android:ems="10"
@@ -64,13 +64,12 @@
 
     <EditText
         android:id="@+id/scoreTeam1"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_width="38dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
         android:layout_marginTop="136dp"
         android:ems="10"
         android:inputType="number"
-        app:layout_constraintEnd_toStartOf="@+id/editTextNumber2"
-        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent"
         tools:text="2" />
@@ -109,8 +108,8 @@
 
     <EditText
         android:id="@+id/gameDate"
-        android:layout_width="135dp"
-        android:layout_height="50dp"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
         android:layout_marginStart="136dp"
         android:layout_marginBottom="336dp"
         android:ems="10"
