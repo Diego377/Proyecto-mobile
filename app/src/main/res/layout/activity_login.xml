@@ -61,18 +61,19 @@
         android:id="@+id/welcomeText"
         android:layout_width="118dp"
         android:layout_height="27dp"
+        android:layout_marginTop="8dp"
         android:fontFamily="sans-serif-black"
         android:text="Bienvenido!"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.441"
+        app:layout_constraintHorizontal_bias="0.44"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="428dp"
-        android:layout_height="327dp"
+        android:layout_width="422dp"
+        android:layout_height="250dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"

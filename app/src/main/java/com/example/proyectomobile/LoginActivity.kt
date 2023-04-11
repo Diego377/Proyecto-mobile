@@ -31,7 +31,7 @@ class LoginActivity : AppCompatActivity() {
             if(VerifyLogin(username.text.toString(), password.text.toString())) {
                 textChange.text = "Credenciales Correctas!"
                 Thread.sleep(3000);
-                val nextActivity = Intent(this, MainActivity::class.java)
+                val nextActivity = Intent(this, GamesInfo::class.java)
                 startActivity(nextActivity)
             }else{
                 textChange.text = "Nombre de usuario o contraseña incorrecto!"
