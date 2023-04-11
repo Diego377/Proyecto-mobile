@@ -15,7 +15,10 @@
 <!--            android:name=".infoPartidos"-->
 <!--            android:exported="false" />-->
         <activity
-            android:name=".GamesInfo"
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
